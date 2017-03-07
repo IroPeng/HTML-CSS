@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>布局</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.header{
+			height: 103px;
+			width: 970px;
+			
+			margin: 0 auto;
+		}
+		.header .left{
+			height: 103px;
+			width:277px;
+			float:left;
+			background: red;
+		}
+		.header .right{
+			height: 103px;
+			width: 679px;
+			
+			float: left;
+			margin-left: 14px;
+		}
+		.header .right .rightT{
+			height: 49px;
+			width: 137px;
+			float: right;
+			background: green;
+		}
+		.header .right .rightB{
+			height: 46px;
+			width: 679px;
+			margin-top:8px;
+			background: green;
+			float:right;
+		}
+		.content{
+			width:970px;
+			height: 435px;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		.content .image{
+			width: 310px;
+			height: 435px;
+			background: yellow;
+			float: left;
+		}
+		.content .news{
+			width:450px;
+			height: 400px;
+			float: left;
+			margin-left: 10px;
+		}
+		.content .news .news1{
+			width: 450px;
+			height: 240px;
+			background: skyblue;
+		}
+		.content .news .news2{
+			width: 450px;
+			height: 110px;
+			background: skyblue;
+			margin-top: 10px;
+		}
+		.content .news .news3{
+			width: 450px;
+			height: 30px;
+			background: skyblue;
+			margin-top: 10px;
+		}
+		.content .nav{
+			width: 190px;
+			height: 400px;
+			float:right;
+			background: purple;
+		}
+		.content .BBB{
+			width: 650px;
+			height: 25px;
+			margin-top: 10px;
+			background: green;
+			float: right;
+		}
+		.foot{
+			width: 970px;
+			height: 35px;
+			margin: 0 auto;
+			margin-top: 10px;
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<div class="left"></div>
+		<div class="right">
+			<div class="rightT"></div>
+			<div class="rightB"></div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="image"></div>
+		<div class="news">
+			<div class="news1"></div>
+			<div class="news2"></div>
+			<div class="news3"></div>
+		</div>
+		<div class="nav"></div>
+		<div class="BBB"></div>
+	</div>
+	<div class="foot"></div>
+</body>
+</html>
